@@ -46,7 +46,7 @@ MQTTClient client = MQTTClient(256);
 
 void setup() {
   // -------------- Power Up ------------------
-  Serial.begin(9600);
+  Serial.begin(115200);
   blink3time();
   
   // -------------- Configuring Watch Dog Timer ------------------
